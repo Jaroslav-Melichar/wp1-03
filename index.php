@@ -23,9 +23,9 @@ $circuit = $number2 + $number2 * $number1 / 2;
 
 ?>
 
-<p>r = <?= $number1 ?> </p>
-<p>Obvod kruhu je <?= $number2 ?> + <?= $number2 ?> * <?= $number1 ?> / <?= 2 ?> = <?= $circuit ?>        </p>
-<p>Obsah kruhu je <?= $number1 ?> * <?= $number1 ?> * <?= $number2 ?> = <?= $area ?> </p>
+<p>r = <?= $number1 ?> cm </p>
+<p>Obvod kruhu je <?= $number2 ?> + <?= $number2 ?> * <?= $number1 ?> / <?= 2 ?> = <?= $circuit ?> cm </p>
+<p>Obsah kruhu je <?= $number1 ?> * <?= $number1 ?> * <?= $number2 ?> = <?= $area ?> cm  </p> 
 
 
 
