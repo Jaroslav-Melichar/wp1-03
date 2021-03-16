@@ -16,7 +16,7 @@ $number1 = rand(1,100);
 PI - define('PI', 3.14)
 
 // obsah kruhu (S = π r²).
-$circle = $number1 * $number1 * PI; 
+$content = $number1 * $number1 * PI; 
 
 // obvod kruhu  o = 2 π (3,14) × poloměr r
 $circuit = PI + PI * $number1 / 2; 
