@@ -10,22 +10,22 @@
 <?php
 
 // r
-$number1 = rand(1,100);
+$r = rand(1,100);
 
 // pí
-PI - define('PI', 3.14);
+define('PI', 3.14);
 
 // obsah kruhu (S = π r²).
-$content = $number1 * $number1 * PI; 
+$area = $r * $r * PI; 
 
 // obvod kruhu  o = 2 π (3,14) × poloměr r
-$circuit = PI + PI * $number1 / 2; 
+$perimeter = PI + PI * $r / 2; 
 
 ?>
 
-<p>r = <?= $number1 ?> cm </p>
-<p>Obvod kruhu je <?= PI ?> + <?= PI ?> * <?= $number1 ?> / <?= 2 ?> = <?= $circuit ?> cm </p>
-<p>Obsah kruhu je <?= $number1 ?> * <?= $number1 ?> * <?= PI ?> = <?= $circle ?> cm  </p> 
+<p>r = <?= $r ?> cm </p>
+<p>Obvod kruhu je <?= PI ?> + <?= PI ?> * <?= $r ?> / <?= 2 ?> = <?= $area ?> cm </p>
+<p>Obsah kruhu je <?= $r ?> * <?= $r ?> * <?= PI ?> = <?= $perimeter ?> cm  </p> 
 
 
 
