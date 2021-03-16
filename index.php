@@ -13,7 +13,7 @@
 $number1 = rand(1,100);
 
 // pí
-PI - define('PI', 3.14)
+PI - define('PI', 3.14);
 
 // obsah kruhu (S = π r²).
 $content = $number1 * $number1 * PI; 
